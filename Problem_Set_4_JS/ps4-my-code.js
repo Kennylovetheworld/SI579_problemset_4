@@ -26,3 +26,15 @@ function event2(e) {
 function event3() {
     r.style.setProperty('--main-bg-color', 'green');
 }
+
+function blueTheBackground() {
+    r.style.setProperty('--main-bg-color', 'lightblue');
+}
+
+function deleteOneElement() {
+    var useless = document.getElementById("useless");
+    useless.remove();
+}
+
+blueTheBackground();
+deleteOneElement();
